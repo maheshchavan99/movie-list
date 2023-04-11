@@ -1,0 +1,100 @@
+.topbar {
+    background: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5vw;
+    position: sticky;
+    top: 0;
+}
+
+.input-filed {
+    background: white;
+    border-radius: 20px;
+    flex: .5;
+
+}
+
+.input-filed input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: none;
+    padding: 5px 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+.list {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+
+}
+
+/* cards  */
+.poster-name {
+    width: 100%;
+}
+
+.titles {
+    font-size: 20px;
+    font-size: bold;
+}
+
+.movie-card {
+    width: 100%;
+    box-shadow: 0 0 3px grey;
+    border-radius: 5px;
+}
+
+.movie-card-contents .text {
+    margin-top: 10px;
+}
+
+.movie-card-contents {
+    padding: 10px;
+}
+
+.mvd-lfet img {
+    width: 100%;
+}
+
+.release-date.timer {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.release-date {
+    color: rgb(135, 133, 133);
+}
+
+.movies-details {
+    display: flex;
+    justify-content: space-around;
+    padding: 5vh;
+}
+
+.mvd-lfet h2 {
+    margin-top: 20px;
+}
+
+.mvd-lfet .desc {
+    font-size: 18px;
+    margin-top: 20px;
+    color: rgb(192, 188, 188);
+}
+.rating{
+    margin: 20px 0;
+}
+
+
+@media only screen and (max-width: 799px) {
+    .movies-details {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}

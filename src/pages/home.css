@@ -1,0 +1,31 @@
+.home-container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows:auto ;
+  gap: 15px;
+}
+.main-home{
+   padding: 5vw;
+}
+.filtter select{
+   width: 100px;
+   padding: 5px;
+   outline: none;
+   margin-left: 15px;
+
+}
+.filtter{
+   margin-bottom: 20px;
+}
+@media only screen and (max-width: 799px) {
+   .home-container {
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+   }
+ }
+ @media only screen and (max-width: 574px) {
+   .home-container {
+      display: grid;
+      grid-template-columns: 1fr
+   }
+ }
